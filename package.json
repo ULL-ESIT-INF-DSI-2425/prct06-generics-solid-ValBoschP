@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2425/prct06-generics-solid-ValBoschP#readme",
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.10",
     "@vitest/coverage-v8": "^3.0.8",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
