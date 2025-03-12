@@ -6,6 +6,12 @@
   "scripts": {
     "doc": "typedoc",
     "test": "vitest run",
+    "test:ejercicio-1": "vitest run src/ejercicio-1/test",
+    "test:ejercicio-2": "vitest run src/ejercicio-2/test",
+    "test:ejercicio-3": "vitest run src/ejercicio-3/test",
+    "test:ejercicio-4": "vitest run src/ejercicio-4/test",
+    "test:ejercicio-5": "vitest run src/ejercicio-5/test",
+    "test:ejercicio-6": "vitest run src/ejercicio-6/test",
     "coverage": "vitest run --coverage --coverage.include src/*"
   },
   "repository": {

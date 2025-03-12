@@ -1,7 +1,5 @@
 # Práctica 6 - Clases e interfaces genéricas. Principios SOLID
 
-## Ejercicios
-
 ### Ejercicio 1 - DSIflix
 Se ha diseñado un modelo de datos para una plataforma streaming, aplicando los principios SOLID. Se ha creado una interfaz Streamable, una clase abstracta BasicStreamableCollection y subclases especializadas para modelar colecciones de pelíclas, series y documentales.
 

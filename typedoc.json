@@ -1,6 +1,9 @@
 {
   "entryPoints": [
-    "src/*.ts"
+    "src/*"
   ],
-  "out": "./docs"
+  "entryPointStrategy": "expand",
+  "out": "./docs",
+  "categorizeByGroup": true,
+  "theme": "default"
 }
