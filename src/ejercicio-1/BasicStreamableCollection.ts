@@ -3,14 +3,14 @@ import { Stremeable } from "./Streamable";
 
 /**
  * Abstract class that manage streaming collection media and implements the Stremeable interface.
- * @template T Type of the elements in the collection.
+ * @typeparam T - The type of media that the collection will store.
  */
 export abstract class BasicStremeableCollection<T extends Media> implements Stremeable<T> {
   protected items: T[] = [];
 
   /**
    * Constructor of the collection.
-   * @param items 
+   * @param items - Array of items to be added to the collection.
    */
   constructor (items: T[]) {
     this.items = items;
