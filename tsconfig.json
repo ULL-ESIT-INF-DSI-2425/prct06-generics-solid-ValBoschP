@@ -5,14 +5,15 @@
     "./dist"
   ],
   "compilerOptions": {
+    "moduleResolution": "node16",
     "target": "ESNext",                                 
-    "module": "commonjs",                                
+    "module": "NodeNext",                                
     "rootDir": "./src",
-    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declaration": true,                             
     "outDir": "./dist",
-    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
-    "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
-    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noImplicitAny": true,                           
+    "strictNullChecks": true,                        
+    "noImplicitReturns": true                       
   },
   "include": ["src/**/*.ts"]
 }
