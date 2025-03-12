@@ -6,7 +6,7 @@ import * as fs from "fs";
 export interface FileReader {
   /**
    * Reads the content of a file.
-   * @param filePath The path of the file to be read.
+   * @param filePath - The path of the file to be read.
    * @returns The content of the file as a string.
    */
   read(filePath: string): string;
@@ -18,8 +18,8 @@ export interface FileReader {
 export interface FileWriter {
   /**
    * Writes data to a file.
-   * @param filePath The path of the file where the data will be written.
-   * @param data The content to be written in the file.
+   * @param filePath - The path of the file where the data will be written.
+   * @param data - The content to be written in the file.
    */
   write(filePath: string, data: string): void;
 }
@@ -31,7 +31,7 @@ export interface FileWriter {
 export class FileSystemReader implements FileReader {
   /**
    * Reads the content of a file from the file system.
-   * @param filePath The path of the file to be read.
+   * @param filePath - The path of the file to be read.
    * @returns The content of the file as a string, or an empty string if an error occurs.
    */
   read(filePath: string): string {
@@ -51,8 +51,8 @@ export class FileSystemReader implements FileReader {
 export class FileSystemWriter implements FileWriter {
   /**
    * Writes data to a file in the file system.
-   * @param filePath The path of the file where the data will be written.
-   * @param data The content to be written in the file.
+   * @param filePath - The path of the file where the data will be written.
+   * @param data - The content to be written in the file.
    */
   write(filePath: string, data: string): void {
     try {
@@ -71,9 +71,9 @@ export class FileSystemWriter implements FileWriter {
 export class FileManager {
   /**
    * Creates an instance of `FileManager`.
-   * @param reader An implementation of `FileReader` for reading files.
-   * @param writer An implementation of `FileWriter` for writing files.
-   * @param filePath The path of the file to manage.
+   * @param reader - An implementation of `FileReader` for reading files.
+   * @param writer - An implementation of `FileWriter` for writing files.
+   * @param filePath - The path of the file to manage.
    */
   constructor(private reader: FileReader, private writer: FileWriter, private filePath: string) {}
 
@@ -87,7 +87,7 @@ export class FileManager {
 
   /**
    * Writes data to the file using the provided `FileWriter` implementation.
-   * @param data The content to be written in the file.
+   * @param data - The content to be written in the file.
    */
   writeFile(data: string): void {
     this.writer.write(this.filePath, data);
