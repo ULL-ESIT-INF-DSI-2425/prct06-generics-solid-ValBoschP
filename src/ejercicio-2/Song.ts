@@ -13,3 +13,4 @@ export interface Song {
   /** The number of times the song has been played. */
   playCount: number;
 }
+
