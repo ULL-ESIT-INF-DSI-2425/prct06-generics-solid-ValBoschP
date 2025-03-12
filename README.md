@@ -8,6 +8,7 @@ Se ha mejorado la estrcutura de la biblioteca musical para cumplir con los princ
 
 ### Ejercicio 3 - Gestor de ficheros
 Se ha analizado el código proporcionado y se han identificado posibles mejoras para cumplir con los principios SOLID. Se ha creado una interfaz File y se ha propesto una solución mejorada.
+Consulta la [justificación de SOLID](ejercicio-3/solid-justification.md).
 
 ### Ejercicio 4 - Impresoras y escáneres
 Se ha revisado la implementación y rediseñado las interfaces y clases para mejorar la adherencia a los principios SOLID.
