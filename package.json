@@ -16,6 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "types": "module",
   "bugs": {
     "url": "https://github.com/ULL-ESIT-INF-DSI-2425/prct06-generics-solid-ValBoschP/issues"
   },

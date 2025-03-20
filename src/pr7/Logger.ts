@@ -37,7 +37,10 @@ export class Logger {
   getActions(): Action[] {
     return this.actions;
   }
-
+  /**
+   * 
+   * @param actions - Actions to set
+   */
   setActions(actions: Action[]): void {
     this.actions = actions;
   }
@@ -77,4 +80,5 @@ export class Logger {
   ActionBetweenDates(date1: string, date2: string): Action[] {
     return this.actions.filter((action) => action.date >= date1 && action.date <= date2);
   }
+
 }
