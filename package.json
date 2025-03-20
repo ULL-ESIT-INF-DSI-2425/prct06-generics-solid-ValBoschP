@@ -10,7 +10,6 @@
     "test:ejercicio-1": "vitest run src/ejercicio-1/test",
     "test:ejercicio-2": "vitest run src/ejercicio-2/test",
     "test:ejercicio-3": "vitest run src/ejercicio-3/test",
-    
     "coverage": "vitest run --coverage --coverage.include src/*"
   },
   "repository": {
@@ -26,7 +25,7 @@
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2425/prct06-generics-solid-ValBoschP#readme",
   "devDependencies": {
     "@eslint/js": "^9.22.0",
-    "@types/node": "^20.17.24",
+    "@types/node": "^22.13.10",
     "@vitest/coverage-v8": "^3.0.8",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
